@@ -1,5 +1,5 @@
 # this is a comment
-# put your name here
+# Marcos Garcia
 # put your course #, assignment number here
 # put the date here
 #
