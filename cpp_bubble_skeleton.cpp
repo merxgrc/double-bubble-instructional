@@ -9,16 +9,18 @@
 
 #include <iostream>
 
-int
-main (int ac, char *av[])
+int main (int ac, char *av[]) 
 {
-   int a[] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1}; // replace with your own random 10 ints from www.calculator.net/random-number-generator.html
+   int a[] = {6, 4, 2, 5, 1, 3, 9, 10, 2, 3}; // replace with your own random 10 ints from www.calculator.net/random-number-generator.html (Done.)
    int n = sizeof(a)/sizeof(int);
 
    std::cout << " a before sort " << std::endl;
 
-   // print out the contents of a before the sort
-   // insert your code here
+   // print out the contents of a before the 
+   for(int i = 0; i < n; i++) {
+      std::cout << a[i] << std::endl;
+   }
+
 
    // do the sort into ascending order. 
    // insert your code here
